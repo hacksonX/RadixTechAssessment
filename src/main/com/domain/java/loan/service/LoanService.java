@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.domain.java.exceptions.ResourceNotFoundException;
-import com.domain.java.model.Loan;
+import com.domain.java.models.Loan;
 import com.domain.java.repository.LoanRepository;
 
 

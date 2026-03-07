@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.domain.java.loan.service.LoanService;
-import com.domain.java.model.Loan;
+import com.domain.java.models.Loan;
 
 @RestController
 @RequestMapping("/api/v1/loan")

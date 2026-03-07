@@ -5,11 +5,11 @@ import org.springframework.transaction.annotation.Transactional;
 import java.math.BigDecimal;
 
 import com.domain.java.exceptions.ResourceNotFoundException;
-import com.domain.java.model.Payment;
+import com.domain.java.models.Payment;
 import com.domain.java.repository.LoanRepository;
 import com.domain.java.repository.PaymentRepository;
 import com.domain.java.enums.LoanStatus;
-import com.domain.java.model.Loan;
+import com.domain.java.models.Loan;
 
 @Service
 public class PaymentService {

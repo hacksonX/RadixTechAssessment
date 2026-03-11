@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import com.domain.java.models.Payment;
 import com.domain.java.payment.service.PaymentService;
 
-
-
 @RestController
 @RequestMapping("/api/v1/payment")
 public class PaymentController {

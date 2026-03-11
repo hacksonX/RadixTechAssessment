@@ -1,13 +1,13 @@
 package com.domain.java.models;
 
+import java.math.BigDecimal;
+
+import com.domain.java.enums.LoanStatus;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-
-import java.math.BigDecimal;
-import com.domain.java.enums.LoanStatus;
-
 
 @Entity
 public class Loan {
@@ -29,11 +29,11 @@ public class Loan {
     }
 
 
-    public Long getId() {
+    public Long getLoanId() {
         return loanId;
     }
 
-    public void setId(Long loanId) {
+    public void setLoanId(Long loanId) {
         this.loanId = loanId;
     }
 

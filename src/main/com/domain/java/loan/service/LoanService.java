@@ -22,10 +22,6 @@ public class LoanService {
         return loanRepository.save(loan);
     }
 
-    public List<Loan> getAllLoans() {
-        return loanRepository.findAll();
-    }
-
     public Loan getLoanById(Long id) {
         return loanRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Loan not found with id: " + id));
